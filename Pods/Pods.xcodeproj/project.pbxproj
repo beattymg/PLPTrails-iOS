@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003AF3C120288E037C48576B2243E471 /* Compass@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8F4198AB5662F9F7AAA4183357E29D /* Compass@3x.png */; };
+		0CAC0CC4DCAC675916FCBCA05B638C9F /* default_marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A035393E00DEF41445BBC6DAEB74569 /* default_marker@3x.png */; };
+		160BEF721C1DB271B20FE3C2DE48B233 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C786AA2C2C6F44B5C156EF97F8894785 /* SwiftyJSON-dummy.m */; };
+		196AB93D6F91BD3B8A662E3BABF3D5AE /* mapbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366B8A19959BA200C1620C38D480BE43 /* mapbox@2x.png */; };
+		22A156810076F6D1A7E3B62042878526 /* mapbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F1891BCF7EB13663812DE23D76A7D22 /* mapbox.png */; };
+		2F3EF98D44B18A5738B996EB7851B102 /* Compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED1EF1A8711E48C25FFECA4166148F2 /* Compass@2x.png */; };
+		4105F60998DB316B7E205F0F58E8C621 /* api_mapbox_com-digicert.der in Resources */ = {isa = PBXBuildFile; fileRef = 4AE3838469D4633362835E1BAA4500D1 /* api_mapbox_com-digicert.der */; };
+		45627E38A4C02F4306763B7180CA5707 /* star_tilestream_net.der in Resources */ = {isa = PBXBuildFile; fileRef = D86534175F4EE5EA7C3B77621CBD33B5 /* star_tilestream_net.der */; };
+		4E86E4895AED1D572EF89E302F6172FB /* default_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 597E94F6DF571DCE466DFB3FF714DD95 /* default_marker.png */; };
+		5D896DFB8B4FAA92F11E7346A0330E3B /* mapbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6DBFAE6692C99FB12FA454F9B78F20 /* mapbox@3x.png */; };
+		875642285691F9B78ABEC26E1A577565 /* Pods-PLPTrails-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FA900880552FB404A318C2D4EF6413 /* Pods-PLPTrails-dummy.m */; };
+		89CD532FBF48416A5AEB3725C68AA5F6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 71FB68F0310C090A2BA2216BF3F9A3D7 /* README */; };
+		8BC6C182AC595289B59FACD63C86218B /* api_mapbox_com-geotrust.der in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDD150253128FBA6CD6D01C7564F4C /* api_mapbox_com-geotrust.der */; };
+		A1C0DC366F36DA278187B54336AB6182 /* default_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B60B0E05969C0CF117FC0BADF6C899 /* default_marker@2x.png */; };
+		B43BD2816013609E80E66FEEB585FF96 /* Compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA39AF3CA5F7953FF65CD3A02E2B03D /* Compass.png */; };
+		C9723FB0C78E33EF18F97E9A8FC29400 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D18B508C0ADD14ADD55FCEA4601DBD62 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA84E4D1C9DB9ADA68D625161E7B2199 /* Pods-PLPTrails-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B33DB9F73C9B6A36EEE29D101348D197 /* Pods-PLPTrails-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F4F17593379C6F5D2189D1D9EB1B33 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567EF2AF70534FEBFAA645FA2692011 /* SwiftyJSON.swift */; };
+		D7A6D1B8D203BD9C3AD22D7CD71FB3C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E097D3E5C004F10F393E76F7DA9D9CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E246AB3229BF060A23EAEDC8331D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BC84B3A8F879C4ADAA33BE2A8CD339;
+			remoteInfo = SwiftyJSON;
+		};
+		82C9C6A1E83E87FAC659B3D06F6FB460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB59219DEF5D393F19F0753F2D9C161;
+			remoteInfo = "Mapbox-iOS-SDK-Mapbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B7B4BD20228E6BCE5605BB496B347A /* Pods-PLPTrails.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PLPTrails.modulemap"; sourceTree = "<group>"; };
+		1385284BE9A018BFC4C1F7582C297C06 /* Mapbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mapbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		19ECCA77AD9E4BFDCB8270260679C3BE /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366B8A19959BA200C1620C38D480BE43 /* mapbox@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mapbox@2x.png"; path = "Mapbox.framework/Mapbox.bundle/mapbox@2x.png"; sourceTree = "<group>"; };
+		37B233CE990D1C1A99B3EBE01916D5EA /* Pods-PLPTrails-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PLPTrails-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EBDD150253128FBA6CD6D01C7564F4C /* api_mapbox_com-geotrust.der */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "api_mapbox_com-geotrust.der"; path = "Mapbox.framework/Mapbox.bundle/api_mapbox_com-geotrust.der"; sourceTree = "<group>"; };
+		3ED1EF1A8711E48C25FFECA4166148F2 /* Compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Compass@2x.png"; path = "Mapbox.framework/Mapbox.bundle/Compass@2x.png"; sourceTree = "<group>"; };
+		4AE3838469D4633362835E1BAA4500D1 /* api_mapbox_com-digicert.der */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "api_mapbox_com-digicert.der"; path = "Mapbox.framework/Mapbox.bundle/api_mapbox_com-digicert.der"; sourceTree = "<group>"; };
+		4BCD6630174479D2D416F7DC13C3339E /* Pods-PLPTrails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLPTrails.debug.xcconfig"; sourceTree = "<group>"; };
+		4E8DC7FEBBDC06A76A15F8E4C24CB7C6 /* Pods_PLPTrails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PLPTrails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5461C2FCF892436DB45867D3F15A86B6 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		597E94F6DF571DCE466DFB3FF714DD95 /* default_marker.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = default_marker.png; path = Mapbox.framework/Mapbox.bundle/default_marker.png; sourceTree = "<group>"; };
+		5A035393E00DEF41445BBC6DAEB74569 /* default_marker@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "default_marker@3x.png"; path = "Mapbox.framework/Mapbox.bundle/default_marker@3x.png"; sourceTree = "<group>"; };
+		5D8F4198AB5662F9F7AAA4183357E29D /* Compass@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Compass@3x.png"; path = "Mapbox.framework/Mapbox.bundle/Compass@3x.png"; sourceTree = "<group>"; };
+		5F1891BCF7EB13663812DE23D76A7D22 /* mapbox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = mapbox.png; path = Mapbox.framework/Mapbox.bundle/mapbox.png; sourceTree = "<group>"; };
+		703358CB9CE4072960CED27242ED417A /* Pods-PLPTrails-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLPTrails-frameworks.sh"; sourceTree = "<group>"; };
+		71FB68F0310C090A2BA2216BF3F9A3D7 /* README */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README; path = Mapbox.framework/Mapbox.bundle/README; sourceTree = "<group>"; };
+		8363F5C2181FD0930D24AE26BE47BA49 /* Pods-PLPTrails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLPTrails.release.xcconfig"; sourceTree = "<group>"; };
+		91B66AA14FDD424F011684306100927F /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		9AA39AF3CA5F7953FF65CD3A02E2B03D /* Compass.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Compass.png; path = Mapbox.framework/Mapbox.bundle/Compass.png; sourceTree = "<group>"; };
+		9AA697440AAB77FF787A4F66E378EBFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A567EF2AF70534FEBFAA645FA2692011 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		B193E47E964D477A75E4428A03D89C30 /* Pods-PLPTrails-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PLPTrails-acknowledgements.plist"; sourceTree = "<group>"; };
+		B33DB9F73C9B6A36EEE29D101348D197 /* Pods-PLPTrails-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PLPTrails-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1B60B0E05969C0CF117FC0BADF6C899 /* default_marker@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "default_marker@2x.png"; path = "Mapbox.framework/Mapbox.bundle/default_marker@2x.png"; sourceTree = "<group>"; };
+		C1FDB5C44F5F545CC100B1B02B0D0805 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		C786AA2C2C6F44B5C156EF97F8894785 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		CA4215B236E1B5F6C4B4BBFEA861012A /* Pods-PLPTrails-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLPTrails-resources.sh"; sourceTree = "<group>"; };
+		CD6DBFAE6692C99FB12FA454F9B78F20 /* mapbox@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mapbox@3x.png"; path = "Mapbox.framework/Mapbox.bundle/mapbox@3x.png"; sourceTree = "<group>"; };
+		D18B508C0ADD14ADD55FCEA4601DBD62 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		D2B9006C3B6B91E66AB6F5D8E382A01F /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		D86534175F4EE5EA7C3B77621CBD33B5 /* star_tilestream_net.der */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = star_tilestream_net.der; path = Mapbox.framework/Mapbox.bundle/star_tilestream_net.der; sourceTree = "<group>"; };
+		EF3852A247A22D1F2433A1483B3EFCB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FA900880552FB404A318C2D4EF6413 /* Pods-PLPTrails-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PLPTrails-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051B9484CB25C8E6AC178354CEC786E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5430E95DA93F43E413FB931799A492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E097D3E5C004F10F393E76F7DA9D9CBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7C203F96FF73A25F4952BF3C0205E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A6D1B8D203BD9C3AD22D7CD71FB3C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096483E3331D70DD309BD1DB2F9F0050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1385284BE9A018BFC4C1F7582C297C06 /* Mapbox.bundle */,
+				4E8DC7FEBBDC06A76A15F8E4C24CB7C6 /* Pods_PLPTrails.framework */,
+				19ECCA77AD9E4BFDCB8270260679C3BE /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC27663CB9A5BF443878901C769186E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44BEA5B0C9796959DA48ECB8BE7907D1 /* Mapbox-iOS-SDK */,
+				F632C5978053AD6E5D86FB0897D893B0 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44BEA5B0C9796959DA48ECB8BE7907D1 /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1EFD30948E8EF6A487CA2650EB0A9 /* Frameworks */,
+				701BE6A273FA9DC2C1585EA763462B7D /* Resources */,
+			);
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		701BE6A273FA9DC2C1585EA763462B7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AE3838469D4633362835E1BAA4500D1 /* api_mapbox_com-digicert.der */,
+				3EBDD150253128FBA6CD6D01C7564F4C /* api_mapbox_com-geotrust.der */,
+				9AA39AF3CA5F7953FF65CD3A02E2B03D /* Compass.png */,
+				3ED1EF1A8711E48C25FFECA4166148F2 /* Compass@2x.png */,
+				5D8F4198AB5662F9F7AAA4183357E29D /* Compass@3x.png */,
+				597E94F6DF571DCE466DFB3FF714DD95 /* default_marker.png */,
+				C1B60B0E05969C0CF117FC0BADF6C899 /* default_marker@2x.png */,
+				5A035393E00DEF41445BBC6DAEB74569 /* default_marker@3x.png */,
+				5F1891BCF7EB13663812DE23D76A7D22 /* mapbox.png */,
+				366B8A19959BA200C1620C38D480BE43 /* mapbox@2x.png */,
+				CD6DBFAE6692C99FB12FA454F9B78F20 /* mapbox@3x.png */,
+				71FB68F0310C090A2BA2216BF3F9A3D7 /* README */,
+				D86534175F4EE5EA7C3B77621CBD33B5 /* star_tilestream_net.der */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3EC27663CB9A5BF443878901C769186E /* Pods */,
+				096483E3331D70DD309BD1DB2F9F0050 /* Products */,
+				F909A6059D1D4EBEE4E0F8A6860991D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A47661E459E045A11B8593A9243CD683 /* Pods-PLPTrails */ = {
+			isa = PBXGroup;
+			children = (
+				EF3852A247A22D1F2433A1483B3EFCB9 /* Info.plist */,
+				01B7B4BD20228E6BCE5605BB496B347A /* Pods-PLPTrails.modulemap */,
+				37B233CE990D1C1A99B3EBE01916D5EA /* Pods-PLPTrails-acknowledgements.markdown */,
+				B193E47E964D477A75E4428A03D89C30 /* Pods-PLPTrails-acknowledgements.plist */,
+				F9FA900880552FB404A318C2D4EF6413 /* Pods-PLPTrails-dummy.m */,
+				703358CB9CE4072960CED27242ED417A /* Pods-PLPTrails-frameworks.sh */,
+				CA4215B236E1B5F6C4B4BBFEA861012A /* Pods-PLPTrails-resources.sh */,
+				B33DB9F73C9B6A36EEE29D101348D197 /* Pods-PLPTrails-umbrella.h */,
+				4BCD6630174479D2D416F7DC13C3339E /* Pods-PLPTrails.debug.xcconfig */,
+				8363F5C2181FD0930D24AE26BE47BA49 /* Pods-PLPTrails.release.xcconfig */,
+			);
+			name = "Pods-PLPTrails";
+			path = "Target Support Files/Pods-PLPTrails";
+			sourceTree = "<group>";
+		};
+		A5E1EFD30948E8EF6A487CA2650EB0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5461C2FCF892436DB45867D3F15A86B6 /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8D33CBECD68A9289A5C8F5E01B1E090 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA697440AAB77FF787A4F66E378EBFD /* Info.plist */,
+				C1FDB5C44F5F545CC100B1B02B0D0805 /* SwiftyJSON.modulemap */,
+				D2B9006C3B6B91E66AB6F5D8E382A01F /* SwiftyJSON.xcconfig */,
+				C786AA2C2C6F44B5C156EF97F8894785 /* SwiftyJSON-dummy.m */,
+				91B66AA14FDD424F011684306100927F /* SwiftyJSON-prefix.pch */,
+				D18B508C0ADD14ADD55FCEA4601DBD62 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		F632C5978053AD6E5D86FB0897D893B0 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				A567EF2AF70534FEBFAA645FA2692011 /* SwiftyJSON.swift */,
+				C8D33CBECD68A9289A5C8F5E01B1E090 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		F909A6059D1D4EBEE4E0F8A6860991D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47661E459E045A11B8593A9243CD683 /* Pods-PLPTrails */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80392E47B6943CE1319C3CA45315D67B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA84E4D1C9DB9ADA68D625161E7B2199 /* Pods-PLPTrails-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D65FE95E96F0A84E726A09A64B2994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9723FB0C78E33EF18F97E9A8FC29400 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15BC84B3A8F879C4ADAA33BE2A8CD339 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9703EE3F457437DB9B05F9E854737E /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				4CC0D98DEDA6E3C270639B3E0BFB7087 /* Sources */,
+				AE7C203F96FF73A25F4952BF3C0205E2 /* Frameworks */,
+				91D65FE95E96F0A84E726A09A64B2994 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 19ECCA77AD9E4BFDCB8270260679C3BE /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DB59219DEF5D393F19F0753F2D9C161 /* Mapbox-iOS-SDK-Mapbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350CA88BA46CBE4A1796F0A918615E /* Build configuration list for PBXNativeTarget "Mapbox-iOS-SDK-Mapbox" */;
+			buildPhases = (
+				D9A0CDF4EB9708160409881E16AACD2E /* Sources */,
+				051B9484CB25C8E6AC178354CEC786E8 /* Frameworks */,
+				DE0920D1A0C39516A66B89971588F960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mapbox-iOS-SDK-Mapbox";
+			productName = "Mapbox-iOS-SDK-Mapbox";
+			productReference = 1385284BE9A018BFC4C1F7582C297C06 /* Mapbox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A79AE087B2FE4806AFFA1309C0280E18 /* Pods-PLPTrails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56101C9001CF585B70B5EC3342F2070C /* Build configuration list for PBXNativeTarget "Pods-PLPTrails" */;
+			buildPhases = (
+				9EEC78C24D4C86289BD1CD050132CD66 /* Sources */,
+				7E5430E95DA93F43E413FB931799A492 /* Frameworks */,
+				80392E47B6943CE1319C3CA45315D67B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95286DF92000D9C56A49F98E7F5B8F2E /* PBXTargetDependency */,
+				98A99A2093CB1A0C90D939BA7970BCE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PLPTrails";
+			productName = "Pods-PLPTrails";
+			productReference = 4E8DC7FEBBDC06A76A15F8E4C24CB7C6 /* Pods_PLPTrails.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 096483E3331D70DD309BD1DB2F9F0050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB59219DEF5D393F19F0753F2D9C161 /* Mapbox-iOS-SDK-Mapbox */,
+				A79AE087B2FE4806AFFA1309C0280E18 /* Pods-PLPTrails */,
+				15BC84B3A8F879C4ADAA33BE2A8CD339 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0920D1A0C39516A66B89971588F960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4105F60998DB316B7E205F0F58E8C621 /* api_mapbox_com-digicert.der in Resources */,
+				8BC6C182AC595289B59FACD63C86218B /* api_mapbox_com-geotrust.der in Resources */,
+				B43BD2816013609E80E66FEEB585FF96 /* Compass.png in Resources */,
+				2F3EF98D44B18A5738B996EB7851B102 /* Compass@2x.png in Resources */,
+				003AF3C120288E037C48576B2243E471 /* Compass@3x.png in Resources */,
+				4E86E4895AED1D572EF89E302F6172FB /* default_marker.png in Resources */,
+				A1C0DC366F36DA278187B54336AB6182 /* default_marker@2x.png in Resources */,
+				0CAC0CC4DCAC675916FCBCA05B638C9F /* default_marker@3x.png in Resources */,
+				22A156810076F6D1A7E3B62042878526 /* mapbox.png in Resources */,
+				196AB93D6F91BD3B8A662E3BABF3D5AE /* mapbox@2x.png in Resources */,
+				5D896DFB8B4FAA92F11E7346A0330E3B /* mapbox@3x.png in Resources */,
+				89CD532FBF48416A5AEB3725C68AA5F6 /* README in Resources */,
+				45627E38A4C02F4306763B7180CA5707 /* star_tilestream_net.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC0D98DEDA6E3C270639B3E0BFB7087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160BEF721C1DB271B20FE3C2DE48B233 /* SwiftyJSON-dummy.m in Sources */,
+				D6F4F17593379C6F5D2189D1D9EB1B33 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEC78C24D4C86289BD1CD050132CD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875642285691F9B78ABEC26E1A577565 /* Pods-PLPTrails-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A0CDF4EB9708160409881E16AACD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95286DF92000D9C56A49F98E7F5B8F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mapbox-iOS-SDK-Mapbox";
+			target = 2DB59219DEF5D393F19F0753F2D9C161 /* Mapbox-iOS-SDK-Mapbox */;
+			targetProxy = 82C9C6A1E83E87FAC659B3D06F6FB460 /* PBXContainerItemProxy */;
+		};
+		98A99A2093CB1A0C90D939BA7970BCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 15BC84B3A8F879C4ADAA33BE2A8CD339 /* SwiftyJSON */;
+			targetProxy = 45E246AB3229BF060A23EAEDC8331D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06238F5F7BE354A98A05700C4E4CE243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Mapbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4E312581271CD4A45B2C5866546A0DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8363F5C2181FD0930D24AE26BE47BA49 /* Pods-PLPTrails.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PLPTrails/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PLPTrails/Pods-PLPTrails.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PLPTrails;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		511D824ED30A4A51E93387EB70F4437D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B9006C3B6B91E66AB6F5D8E382A01F /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94A259630E1126AD73B56C8CD557AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCD6630174479D2D416F7DC13C3339E /* Pods-PLPTrails.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PLPTrails/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PLPTrails/Pods-PLPTrails.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PLPTrails;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4A2199EF0363F38958A1B4A108EF9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Mapbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CF7208B2FF8D0999154ABFDF311AD62B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B9006C3B6B91E66AB6F5D8E382A01F /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18350CA88BA46CBE4A1796F0A918615E /* Build configuration list for PBXNativeTarget "Mapbox-iOS-SDK-Mapbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2199EF0363F38958A1B4A108EF9B9 /* Debug */,
+				06238F5F7BE354A98A05700C4E4CE243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56101C9001CF585B70B5EC3342F2070C /* Build configuration list for PBXNativeTarget "Pods-PLPTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A259630E1126AD73B56C8CD557AC07 /* Debug */,
+				4E312581271CD4A45B2C5866546A0DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9703EE3F457437DB9B05F9E854737E /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511D824ED30A4A51E93387EB70F4437D /* Debug */,
+				CF7208B2FF8D0999154ABFDF311AD62B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

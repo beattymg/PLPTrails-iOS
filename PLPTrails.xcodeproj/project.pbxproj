@@ -13,6 +13,13 @@
 		2D1294911C345FA000CF7BC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1294901C345FA000CF7BC1 /* Images.xcassets */; };
 		2D1294941C345FA000CF7BC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1294921C345FA000CF7BC1 /* LaunchScreen.xib */; };
 		2D1294A01C345FA000CF7BC1 /* PLPTrailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D12949F1C345FA000CF7BC1 /* PLPTrailsTests.swift */; };
+		2D2EFF261C486AAF009B4555 /* TrailDataGeoJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D2EFF251C486AAF009B4555 /* TrailDataGeoJSON.json */; };
+		2D34002E1C3780F000B6E08E /* usermarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D34002D1C3780F000B6E08E /* usermarker.png */; };
+		2D3400311C3813F400B6E08E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D34002F1C3813F400B6E08E /* Model.xcdatamodeld */; };
+		2D48DED01C4DA7A30025D6DE /* OneShotLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D48DECF1C4DA7A30025D6DE /* OneShotLocationManager.swift */; };
+		2D4D7A3D1C49D80000B5EA19 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D7A3C1C49D80000B5EA19 /* SwiftyJSON.swift */; };
+		2D96B3E31C483A5D0038B71D /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D96B3E21C483A5D0038B71D /* KMLParser.m */; };
+		2DDC67D81C48506D00B7DE58 /* TrailData082615.kml in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC67D71C48506D00B7DE58 /* TrailData082615.kml */; };
 		B9258B34A5FB1907D87A3C21 /* Pods_PLPTrails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDBDCE82C6387FBCDAB8716 /* Pods_PLPTrails.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +44,15 @@
 		2D1294991C345FA000CF7BC1 /* PLPTrailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLPTrailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D12949E1C345FA000CF7BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D12949F1C345FA000CF7BC1 /* PLPTrailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPTrailsTests.swift; sourceTree = "<group>"; };
+		2D2EFF251C486AAF009B4555 /* TrailDataGeoJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TrailDataGeoJSON.json; sourceTree = "<group>"; };
+		2D34002D1C3780F000B6E08E /* usermarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usermarker.png; sourceTree = "<group>"; };
+		2D3400301C3813F400B6E08E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2D48DECF1C4DA7A30025D6DE /* OneShotLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneShotLocationManager.swift; path = "../../../../Downloads/OneShotLocationManager-master/OneShotLocationManager.swift"; sourceTree = "<group>"; };
+		2D4D7A3C1C49D80000B5EA19 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
+		2D96B3E01C483A5C0038B71D /* PLPTrails-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLPTrails-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D96B3E11C483A5D0038B71D /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMLParser.h; path = "../../../../Downloads/KMLViewer 2/Classes/KMLParser.h"; sourceTree = "<group>"; };
+		2D96B3E21C483A5D0038B71D /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMLParser.m; path = "../../../../Downloads/KMLViewer 2/Classes/KMLParser.m"; sourceTree = "<group>"; };
+		2DDC67D71C48506D00B7DE58 /* TrailData082615.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TrailData082615.kml; sourceTree = "<group>"; };
 		8918DC72DAD2E5E1B6D6F37A /* Pods-PLPTrails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLPTrails.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLPTrails/Pods-PLPTrails.release.xcconfig"; sourceTree = "<group>"; };
 		A3A7FF3BEDFDBD95873F230E /* Pods-PLPTrails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLPTrails.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLPTrails/Pods-PLPTrails.debug.xcconfig"; sourceTree = "<group>"; };
 		EEDBDCE82C6387FBCDAB8716 /* Pods_PLPTrails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PLPTrails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,12 +100,21 @@
 		2D1294861C345FA000CF7BC1 /* PLPTrails */ = {
 			isa = PBXGroup;
 			children = (
+				2D4D7A3C1C49D80000B5EA19 /* SwiftyJSON.swift */,
+				2D48DECF1C4DA7A30025D6DE /* OneShotLocationManager.swift */,
 				2D1294891C345FA000CF7BC1 /* AppDelegate.swift */,
+				2D34002F1C3813F400B6E08E /* Model.xcdatamodeld */,
 				2D12948B1C345FA000CF7BC1 /* ViewController.swift */,
+				2D2EFF251C486AAF009B4555 /* TrailDataGeoJSON.json */,
+				2DDC67D71C48506D00B7DE58 /* TrailData082615.kml */,
 				2D12948D1C345FA000CF7BC1 /* Main.storyboard */,
+				2D34002D1C3780F000B6E08E /* usermarker.png */,
 				2D1294901C345FA000CF7BC1 /* Images.xcassets */,
 				2D1294921C345FA000CF7BC1 /* LaunchScreen.xib */,
+				2D96B3E11C483A5D0038B71D /* KMLParser.h */,
+				2D96B3E21C483A5D0038B71D /* KMLParser.m */,
 				2D1294871C345FA000CF7BC1 /* Supporting Files */,
+				2D96B3E01C483A5C0038B71D /* PLPTrails-Bridging-Header.h */,
 			);
 			path = PLPTrails;
 			sourceTree = "<group>";
@@ -183,7 +208,9 @@
 		2D12947C1C345FA000CF7BC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Matthew Beatty";
 				TargetAttributes = {
 					2D1294831C345FA000CF7BC1 = {
@@ -226,6 +253,9 @@
 			files = (
 				2D12948F1C345FA000CF7BC1 /* Main.storyboard in Resources */,
 				2D1294941C345FA000CF7BC1 /* LaunchScreen.xib in Resources */,
+				2DDC67D81C48506D00B7DE58 /* TrailData082615.kml in Resources */,
+				2D34002E1C3780F000B6E08E /* usermarker.png in Resources */,
+				2D2EFF261C486AAF009B4555 /* TrailDataGeoJSON.json in Resources */,
 				2D1294911C345FA000CF7BC1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D12948C1C345FA000CF7BC1 /* ViewController.swift in Sources */,
+				2D48DED01C4DA7A30025D6DE /* OneShotLocationManager.swift in Sources */,
 				2D12948A1C345FA000CF7BC1 /* AppDelegate.swift in Sources */,
+				2D3400311C3813F400B6E08E /* Model.xcdatamodeld in Sources */,
+				2D4D7A3D1C49D80000B5EA19 /* SwiftyJSON.swift in Sources */,
+				2D96B3E31C483A5D0038B71D /* KMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +390,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -423,9 +458,13 @@
 			baseConfigurationReference = A3A7FF3BEDFDBD95873F230E /* Pods-PLPTrails.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PLPTrails/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PLPTrails/PLPTrails-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -434,9 +473,12 @@
 			baseConfigurationReference = 8918DC72DAD2E5E1B6D6F37A /* Pods-PLPTrails.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PLPTrails/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PLPTrails/PLPTrails-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -454,6 +496,7 @@
 				);
 				INFOPLIST_FILE = PLPTrailsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLPTrails.app/PLPTrails";
 			};
@@ -469,6 +512,7 @@
 				);
 				INFOPLIST_FILE = PLPTrailsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "testing.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLPTrails.app/PLPTrails";
 			};
@@ -505,6 +549,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D34002F1C3813F400B6E08E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D3400301C3813F400B6E08E /* Model.xcdatamodel */,
+			);
+			currentVersion = 2D3400301C3813F400B6E08E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2D12947C1C345FA000CF7BC1 /* Project object */;
 }

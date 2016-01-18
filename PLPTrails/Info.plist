@@ -2,14 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
-	<string>YES</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>testing.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -26,8 +24,12 @@
 	<true/>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1IjoiYmVhdHR5bWciLCJhIjoiMjdlODdkYzQyOWQ4MDRmZDE2NDE3OWQ5ZGNkZGJlNjUifQ.otjWMKv5-R9i2cZaiCShyA</string>
+	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+	<string>YES</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Provides user&apos;s position on trail</string>
+	<string>Provides user's position on trail</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This application needs access to your location information</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>

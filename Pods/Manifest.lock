@@ -1,0 +1,13 @@
+PODS:
+  - Mapbox-iOS-SDK (3.0.1)
+  - SwiftyJSON (2.2.1)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK
+  - SwiftyJSON (~> 2.2.1)
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 61e79f3dd8432617bd1a66b2d7273ab5ce923ca9
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+
+COCOAPODS: 0.39.0
