@@ -17,20 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKL-XS-qBS">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKL-XS-qBS">
+                                <rect key="frame" x="0.0" y="-5" width="600" height="44"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vc7-yq-DDY">
-                                        <rect key="frame" x="66" y="29" width="468" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vc7-yq-DDY">
+                                        <rect key="frame" x="200" y="29" width="200" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="SB5-HJ-fZx"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1062140214" green="0.22797594569999999" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.35813979127272721" blue="0.1789602605248613" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Vc7-yq-DDY" firstAttribute="centerY" secondItem="QKL-XS-qBS" secondAttribute="centerY" constant="8" id="Hqx-T3-4Lj"/>
+                                    <constraint firstItem="Vc7-yq-DDY" firstAttribute="centerX" secondItem="QKL-XS-qBS" secondAttribute="centerX" id="ip2-e0-lmz"/>
+                                    <constraint firstAttribute="height" constant="60" id="pX7-X0-a5Y"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QKL-XS-qBS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="0f2-b6-M6e"/>
+                            <constraint firstItem="QKL-XS-qBS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g29-zP-jDO"/>
+                            <constraint firstItem="QKL-XS-qBS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="nTy-Sy-j2z"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="currentTrailLabel" destination="Vc7-yq-DDY" id="rNI-Ve-jji"/>
