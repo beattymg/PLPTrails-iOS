@@ -13,12 +13,13 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDelegate {
     
-    private var userLocation:MGLUserLocation!
+    fileprivate var userLocation:MGLUserLocation!
     internal var kmlParser:KMLParser!
     var locationManager:CLLocationManager!
+    var manager: OneShotLocationManager?
     
-    private var coordinateArray: [[(Double, Double)]] = []
-    private var trailNameArray: [String] = []
+    fileprivate var coordinateArray: [[(Double, Double)]] = []
+    fileprivate var trailNameArray: [String] = []
     
     @IBOutlet var filterCoursesButton: UIButton!
     @IBOutlet var topBarView: UIView!
@@ -31,21 +32,21 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.locationManager.delegate = self
-        self.locationManager.requestAlwaysAuthorization()
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        self.locationManager.startUpdatingLocation()
+//        self.locationManager.delegate = self
+//        self.locationManager.requestAlwaysAuthorization()
+//        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+//        self.locationManager.startUpdatingLocation()
         
         // fill in the next line with your style URL from Mapbox Studio
-        let styleURL = NSURL(string: "mapbox://styles/beattymg/ciiug67uw00izzwmag6e6l10d")
+        let styleURL = URL(string: "mapbox://styles/beattymg/ciiug67uw00izzwmag6e6l10d")
         let mapView = MGLMapView(frame: view.bounds,
             styleURL: styleURL)
-        mapView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
+        mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
         if let checkUserLocation = mapView.userLocation {
-            checkUserLocation.title = "USER LOCATION MARKER"
+            checkUserLocation.title = "User location marker"
             mapView.addAnnotation(checkUserLocation)
-            mapView.setCenterCoordinate(CLLocationCoordinate2D(latitude: checkUserLocation.coordinate.latitude,
+            mapView.setCenter(CLLocationCoordinate2D(latitude: checkUserLocation.coordinate.latitude,
                 longitude: checkUserLocation.coordinate.longitude),
                 zoomLevel: 12, animated: false)
             userLocation = mapView.userLocation!
@@ -53,7 +54,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDel
             
         }
         else {
-            mapView.setCenterCoordinate(CLLocationCoordinate2D(latitude: 41.1,
+            mapView.setCenter(CLLocationCoordinate2D(latitude: 41.1,
                 longitude: -75.530),
                 zoomLevel: 12, animated: false)
         }
@@ -67,21 +68,38 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDel
         
         loadOfflineCache()
         
-        let firstLaunch = NSUserDefaults.standardUserDefaults().boolForKey("FirstLaunch")
+        let firstLaunch = UserDefaults.standard.bool(forKey: "FirstLaunch")
         if firstLaunch  {
             print("Not first launch.")
             loadTrailBar()
         }
         else {
             print("First launch, setting NSUserDefault.")
-            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "FirstLaunch")
+            UserDefaults.standard.set(true, forKey: "FirstLaunch")
             loadTrailBar()
             //
         }
         
+        currentTrailLabel.text = "Powerline Trail"
+        findClosestTrail()
         updateCurrentTrail()
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "updateCurrentTrail", userInfo: nil, repeats: true)
+        view.bringSubview(toFront: topBarView)
+        Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(ViewController.updateCurrentTrail), userInfo: nil, repeats: true)
 
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        manager = OneShotLocationManager()
+        manager!.fetchWithCompletion {location, error in
+            if let _ = location {
+                print(location)
+            } else if let err = error {
+                print(err.localizedDescription)
+            }
+            self.manager = nil
+        }
+        
     }
     
     func loadTrailBar() {
@@ -90,14 +108,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDel
     }
     
     func loadTrailData() {
-        let path1 = NSBundle.mainBundle().pathForResource("TrailData082615", ofType: "kml")
-        let url = NSURL.fileURLWithPath(path1!)
-        self.kmlParser = KMLParser(URL: url)
+        let path1 = Bundle.main.path(forResource: "TrailData082615", ofType: "kml")
+        let url = URL(fileURLWithPath: path1!)
+        self.kmlParser = KMLParser(url: url)
         print(self.kmlParser.overlays)
         print(self.kmlParser.points)
         
-        let path = NSBundle.mainBundle().pathForResource("TrailDataGeoJSON", ofType: "json")
-        let jsonData = NSData(contentsOfFile:path!)
+        let path = Bundle.main.path(forResource: "TrailDataGeoJSON", ofType: "json")
+        let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path!))
         let json = JSON(data: jsonData!)
         
         for item in json["features"].arrayValue {
@@ -117,19 +135,64 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MGLMapViewDel
         
     }
     
+    func findClosestTrail() {
+        var tempLat:Double = 0.0
+        var tempLong:Double = 0.0
+        manager = OneShotLocationManager()
+        manager!.fetchWithCompletion {location, error in
+            if let _ = location {
+                print(location)
+                tempLat = (location?.coordinate.latitude.distance(to: 0.0))!
+                tempLong = (location?.coordinate.longitude.distance(to: 0.0))!
+                abs(tempLat)
+                abs(tempLong)
+            } else if let err = error {
+                print(err.localizedDescription)
+            }
+            self.manager = nil
+        }
+        
+        for coordinateTuple in coordinateArray {
+            //check if it is near current position
+        }
+        
+    }
+    
     func updateCurrentTrail() {
+        var tempLat:Double = 0.0
+        var tempLong:Double = 0.0
+        manager = OneShotLocationManager()
+        manager!.fetchWithCompletion {location, error in
+            if let _ = location {
+                print(location)
+                tempLat = (location?.coordinate.latitude.distance(to: 0.0))!
+                tempLong = (location?.coordinate.longitude.distance(to: 0.0))!
+                abs(tempLat)
+                abs(tempLong)
+            } else if let err = error {
+                print(err.localizedDescription)
+            }
+            self.manager = nil
+        }
+        
+        if (abs(tempLat - previousLat) > 0.001 || abs(tempLat - previousLat) > 0.001)
+        {
+            
+            
+            
+        }
         
         
         
     }
     
-    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("didFailWithError: \(error.description)")
         let errorAlert = UIAlertView(title: "Error", message: "Failed to Get Your Location", delegate: nil, cancelButtonTitle: "Ok")
         errorAlert.show()
     }
     
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         //let newLocation = locations.last as! CLLocation
         //print("current position: \(newLocation.coordinate.longitude) , \(newLocation.coordinate.latitude)")
     }
